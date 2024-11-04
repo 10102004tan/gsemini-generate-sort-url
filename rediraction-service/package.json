@@ -1,0 +1,19 @@
+{
+  "name": "gsemini-generate-sort-url",
+  "version": "1.0.0",
+  "description": "- Generate a unique short URL for a given long URL\r - Redirect the user to the original URL when the short URL is accessed\r - Allow users to customize their short URLs (optional)\r - Support link expiration where URLs are no longer accessible after a certain period\r - Provide analytics on link usage (optional)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
